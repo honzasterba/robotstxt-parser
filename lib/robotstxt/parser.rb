@@ -1,3 +1,4 @@
+require 'cgi'
 
 module Robotstxt
   # Parses robots.txt files for the perusal of a single user-agent.
@@ -39,7 +40,7 @@ module Robotstxt
   # path with query string.
   #
   class Parser
-    include CommonMethods
+    include Common
 
     # Gets every Sitemap mentioned in the body of the robots.txt file.
     #

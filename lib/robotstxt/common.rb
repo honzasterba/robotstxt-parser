@@ -2,7 +2,7 @@ require 'uri'
 require 'net/http'
 
 module Robotstxt
-  module CommonMethods
+  module Common
 
     protected
     # Convert a URI or a String into a URI
