@@ -9,7 +9,7 @@ module Robotstxt
         :http_timeout => 10
       }.merge(options)
 
-      robotstxt = if source.is_a? Net::HTTP
+      if source.is_a? Net::HTTP
         obtain_via_http(source, "/robots.txt", robot_id, options)
       else
         uri = objectify_uri(source)
