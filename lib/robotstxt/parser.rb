@@ -40,7 +40,7 @@ module Robotstxt
   # path with query string.
   #
   class Parser
-    include Common
+    include Robotstxt::Common
 
     # Gets every Sitemap mentioned in the body of the robots.txt file.
     #

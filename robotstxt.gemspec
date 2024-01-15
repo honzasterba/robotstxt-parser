@@ -3,9 +3,9 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "robotstxt-parser"
-  gem.version       = "0.1.1"
-  gem.authors       = ["Garen Torikian"]
-  gem.email         = ["gjtorikian@gmail.com"]
+  gem.version       = "0.1.2"
+  gem.authors       = ["Garen Torikian", "Jan Sterba"]
+  gem.email         = ["gjtorikian@gmail.com", "info@jansterba.com"]
   gem.description   = %q{Robotstxt-Parser allows you to the check the accessibility of URLs and get other data. Full support for the robots.txt RFC, wildcards and Sitemap: rules.}
   gem.summary       = %q{Robotstxt-parser is an Ruby robots.txt file parser.}
   gem.homepage      = "https://github.com/gjtorikian/robotstxt-parser"
